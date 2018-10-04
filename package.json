@@ -1,0 +1,29 @@
+{
+  "name": "esy-reason-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/Index.bs.js",
+  "esy": {
+    "buildsInSource": true
+  },
+
+  "resolutions": {
+    "@esy-ocaml/reason": "github:facebook/reason#335c3fb2470964c2b4a7d571a8fbd9acdc3c2323"
+  },
+
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "reason-react": ">=0.4.0"
+  },
+  "devDependencies": {
+    "fpack": "*",
+    "@esy-ocaml/reason": "*",
+    "@esy-ocaml/rtop": "*",
+    "bs-platform": "*",
+    "@opam/merlin": "*",
+    "ocaml": "4.2.3005"
+  },
+  "author": "Oleksiy Golovko <alexei.golovko@gmail.com>",
+  "license": "ISC"
+}
