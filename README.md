@@ -37,5 +37,5 @@ $ open src/index.html
 # Notes
 
 - this repo doesn't work on Windows for the moment
-- using of `fastpack` is purely optional and can be replaced by another bundler
+- usage of `fastpack` is purely optional and can be replaced by another bundler
   of choice
